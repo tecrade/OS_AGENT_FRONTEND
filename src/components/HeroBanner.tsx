@@ -55,7 +55,12 @@ const HeroBanner: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button text="TRY OS-AGENT" primary={true} />
+            <Button
+  text="TRY OS-AGENT"
+  primary={true}
+  onClick={() => window.open('https://0805-13-61-96-76.ngrok-free.app/', '_blank')}
+/>
+
             <Button text="GITHUB" />
           </div>
         </motion.div>

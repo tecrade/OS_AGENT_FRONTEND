@@ -52,7 +52,12 @@ const Navbar: React.FC = () => {
           ))}
         </div>
 
-        <Button text="TRY OS-AGENT" primary={true} />
+        <Button
+  text="TRY OS-AGENT"
+  primary={true}
+  onClick={() => window.open('https://0805-13-61-96-76.ngrok-free.app/', '_blank')}
+/>
+
 
         <div className="md:hidden">
           <motion.button
